@@ -130,14 +130,29 @@ Measure recurrence only among questions that survive relevance filtering. Keep p
 ### `PYQ_Analysis/gaps.md`
 Record only exam-relevant gaps: likely question patterns not properly covered by Sir's notes but worth minimal safety coverage. State exactly why each gap survives filtering and the minimum depth required.
 
-### `Notes/notes.md`
-Main exam-ready theory notes. Scope comes from Sir's original PDF, shaped by relevant PYQ questions. Supplementary material must be clearly separated and minimal.
+### `Notes/notes.md` — single complete study package
+This is the **main and complete study artifact**. It must integrate theory, formulas, diagrams-to-remember, worked numericals and relevant PYQ patterns topic by topic.
+
+Do **not** split theory and numericals into separate study files.
+
+For each topic, use this flow where applicable:
+
+1. explain the concept clearly in connected prose;
+2. develop the important definitions, intuition, formulas and distinctions;
+3. explain how the method works and when/why it is used;
+4. immediately follow with the numerical/worked procedure for that same topic if one is relevant;
+5. prefer a relevant PYQ numerical/question as the worked example; otherwise use a worked example from Sir's notes;
+6. add concise exam-oriented observations, common mistakes or question variants only when useful.
+
+The writing style should resemble good explanatory university notes: coherent paragraphs, meaningful headings and subheadings, and enough explanation that the user can understand a topic from the notes alone. Avoid one-line pseudo-notes, unexplained keyword dumps, and bullet-only theory. Bullets may be used where they genuinely improve structure, but the core explanation must be prose.
+
+`CORE` topics should be complete enough to learn and answer from. `SUPPLEMENTARY` topics must remain clearly marked and limited to likely exam needs. `EXCLUDE` topics do not enter the notes.
 
 ### `Notes/numericals.md`
-Worked numerical methods and practice patterns. Prioritize numericals from Sir's notes, then aligned PYQ variants. Do not add unrelated numerical chapters from legacy papers.
+Do not use this as a separate study artifact. Numerical preparation belongs inside `Notes/notes.md` next to the concept it tests.
 
 ### `Notes/revision_notes.md`
-Final compact revision layer derived from the completed notes/numericals and filtered PYQ analysis. It must not introduce new scope.
+Final compact revision layer derived from the completed integrated `Notes/notes.md` and filtered PYQ analysis. It must not introduce new scope.
 
 ### `Instructions/`
 Follow the task-specific rules in these files together with this `AGENTS.md`.
@@ -146,6 +161,9 @@ Follow the task-specific rules in these files together with this `AGENTS.md`.
 
 - Optimize for marks per study minute.
 - Prefer exact formulas, procedures, distinctions, diagrams-to-remember and likely question forms over generic prose.
+- Explanations must be clear and substantial enough to learn from; do not reduce important theory to one-liners.
+- Keep numerical work immediately adjacent to the theory it depends on.
+- Prefer PYQ-based worked examples, then Sir-note examples.
 - Do not make notes bloated just to cover the official syllabus.
 - Do not omit a relevant PYQ pattern just because its paper is lower priority.
 - Do not include material that evidence suggests is unlikely for this midsem.
@@ -153,4 +171,4 @@ Follow the task-specific rules in these files together with this `AGENTS.md`.
 
 ## Current project phase
 
-The source layer is established. The next phase should be **Sir-PDF source mapping + relevance-filtered PYQ analysis**. Final notes should be generated only after that mapping is available, unless the user explicitly asks otherwise.
+The source layer is established. The next phase should be **Sir-PDF source mapping + relevance-filtered PYQ analysis**. The integrated final study package in `Notes/notes.md` should be generated only after that mapping is available, unless the user explicitly asks otherwise.
