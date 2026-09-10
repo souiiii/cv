@@ -1,10 +1,22 @@
-# Computer Vision (CV) — Official Syllabus
+# Computer Vision (CV) — Official Syllabus Reference
 
-Source: official IIIT Bhubaneswar `CV-7th-Semester-IT.pdf` already stored in this directory.
+Source: official IIIT Bhubaneswar `CV-7th-Semester-IT.pdf` stored in this directory.
 
-## Mid-Semester Scope Boundary
+## Role in this project
 
-For this project, **Module I is the official syllabus boundary relevant to the mid-semester preparation**. Modules II and III belong to later/end-semester preparation unless current class guidance explicitly says otherwise.
+This official syllabus is **reference material only**.
+
+It does **not** define the working midsem scope. The real working scope is Sir's supplied notes:
+
+- `Sources/Sir_Notes/CV_01.pdf`
+
+Use the official syllabus only to:
+
+- understand where Sir's taught material sits within the course,
+- recognize nearby topics that may explain a PYQ,
+- identify a small number of plausible supplementary topics when PYQ/class evidence supports them.
+
+Do not expand the study notes simply to cover every item below.
 
 ## Module I — Image Processing Fundamentals [10 Hours]
 
@@ -19,16 +31,14 @@ For this project, **Module I is the official syllabus boundary relevant to the m
   - edge detection,
   - corner detection.
 
-## Later Modules — Not the current mid-semester focus
-
-### Module II — Geometrical techniques in computer vision [10 Hours]
+## Module II — Geometrical techniques in computer vision [10 Hours]
 
 - Feature detection and matching: feature detectors, descriptors, matching and tracking.
 - Camera geometry: projections, calibration and pose estimation.
 - Depth estimation: epipolar geometry, sparse/dense correspondence, multi-view stereo.
 - Two-view Structure from Motion and object tracking.
 
-### Module III — Deep learning for computer vision [10 Hours]
+## Module III — Deep learning for computer vision [10 Hours]
 
 - Deep neural networks.
 - CNNs and 3D CNNs.
@@ -36,6 +46,8 @@ For this project, **Module I is the official syllabus boundary relevant to the m
 - Transformers.
 - Generative models and applications.
 
-## Project interpretation rule
+## Interpretation rule
 
-The official syllabus defines the formal course boundary, but **Sir's supplied notes are the primary preparation source for the current mid-semester**. Do not expand the main notes merely to cover every official Module-I phrase absent from Sir's notes. Missing but related Module-I/PYQ topics should be handled as limited gap coverage unless reliable current-class evidence elevates them.
+A topic appearing here but not in Sir's notes is **not automatically required** for the midsem.
+
+Promote such a topic into supplementary preparation only when there is a concrete exam-safety reason, especially a relevant PYQ pattern or current class guidance. Even then, cover only the minimum depth needed for the likely question unless stronger evidence says otherwise.
