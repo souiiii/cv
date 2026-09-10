@@ -18,6 +18,11 @@ Use the official syllabus only to:
 
 Do not expand the study notes simply to cover every item below.
 
+TOPICS FROM MODULE 2 AND 3 ARE MOST LIKELY NOT IN MIDSEM.
+some initial topics of module 2 can be in midsem(not sure), but later half of module 2 and the whole of module 3 are definitely not.
+
+the sir's notes are the source of truth.
+
 ## Module I — Image Processing Fundamentals [10 Hours]
 
 - Introduction and overview.
