@@ -1,19 +1,24 @@
-# How to Build Numerical Notes
+# How to Integrate Numericals into the Main Notes
 
-Use `Sources/Sir_Notes/CV_01.pdf` as the primary numerical source.
+Numerical preparation belongs inside `Notes/notes.md`, directly after the theory for the topic it tests.
 
-For each numerical method actually present in Sir's notes:
+Do **not** build a separate numerical-study document.
 
-- state the formula/algorithm exactly;
-- explain the minimum reasoning needed to choose and apply it;
-- show a clean step-by-step worked pattern;
-- record common calculation/rounding/indexing mistakes;
-- connect it to relevant PYQ variants.
+Use `Sources/Sir_Notes/CV_01.pdf` as the primary numerical-content source and the relevant PYQ Markdown files as the preferred source of exam-style numerical questions. Open the matching PYQ PDF only when a matrix, figure, value, mark allocation or transcription needs verification.
 
-Use relevant PYQ Markdown files to discover how a method is likely to be asked. Open the matching PYQ PDF only when matrices, figures, values or formatting need verification.
+For every numerical method that survives the scope filter:
 
-If a numerical appears in a PYQ but is absent from Sir's notes, include it only if it survives the `SUPPLEMENTARY` relevance filter from `AGENTS.md`. Keep such coverage minimal and exam-oriented.
+1. explain the underlying concept first in the relevant topic section of `Notes/notes.md`;
+2. state and explain the formula/algorithm;
+3. follow immediately with a worked example;
+4. prefer a relevant PYQ numerical; otherwise use Sir's worked/example material;
+5. show the solution step by step with meaningful intermediate values;
+6. explain non-obvious choices such as kernel placement, normalization, indexing, matrix order, rounding or boundary assumptions;
+7. mention realistic exam mistakes only when useful;
+8. connect closely related PYQ variants without duplicating entire solutions unnecessarily.
 
-Do not create unrelated numerical chapters just because they occur in legacy papers.
+If a numerical appears in a PYQ but is absent from Sir's notes, include it only if it survives the `SUPPLEMENTARY` filter in `AGENTS.md`. Keep it limited to the standard exam pattern that justified its inclusion.
 
-`Notes/numericals.md` should make the user capable of solving the expected paper, not merely recognizing formulas.
+Do not create unrelated numerical chapters from legacy papers.
+
+`Notes/numericals.md` is not a standalone study artifact. Leave it unused unless the user later explicitly asks for a separate numerical index or drill sheet.
