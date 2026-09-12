@@ -518,7 +518,7 @@ H(\omega)=\frac{e^{-j\omega}+1+e^{j\omega}}3
 =\frac{1+2\cos\omega}{3}.
 \]
 
-At zero frequency H(0)=1, so the constant/DC component passes unchanged. Near zero the gain remains close to 1, whereas at the rapidly alternating frequency π its magnitude is only 1/3; at 2π/3 it is zero. More generally, the magnitude of a normalized sum of unit phasors cannot exceed 1, with cancellation away from DC. The 3×3 mean is separable into horizontal and vertical means, so its 2D response is the product of the two responses. It therefore emphasizes slowly varying content relative to rapid fluctuations: **low-pass smoothing**. It is not an ideal sharp-cutoff filter and need not have a perfectly monotonic response.
+At zero frequency H(0)=1, so averaging preserves the constant/DC component. Near zero, the gain stays close to 1, preserving slow variation. At the rapidly alternating frequency π, the gain magnitude is only 1/3. Averaging therefore attenuates rapid changes/high-frequency content relative to DC and slow variation, so it acts as a **low-pass filter**.
 
 ### 6.6 Derivative and sharpening masks
 
@@ -818,7 +818,7 @@ If corresponding nonzero components are unchanged, each ratio is 1 and contribut
 
 ### 10.6 Crowd clustering and particle-filter tracking
 
-**Clustering/reassigning — p.113.** Sir illustrates 13 detected blobs grouped by a GMM with k=3. Grouping puts blobs with related features into clusters, which supports distinguishing candidate regions before tracking/reassignment. The displayed groups are C₁={F₅,F₇}, C₂={F₁,F₃,F₈,F₁₀}, and C₃={F₂,F₄,F₆,F₉,F₁₁,F₁₂,F₁₃}, with cluster density increasing down the diagram. Remember the grouping/reassignment idea and the three-group diagram; the slide does not supply a full clustering optimization procedure.
+**Clustering/reassigning — p.113.** Sir illustrates 13 detected blobs grouped by a GMM with k=3. Grouping puts blobs with related features into clusters, which supports distinguishing candidate regions before tracking/reassignment. **Slide illustration only (not for memorization):** the displayed groups are C₁={F₅,F₇}, C₂={F₁,F₃,F₈,F₁₀}, and C₃={F₂,F₄,F₆,F₉,F₁₁,F₁₂,F₁₃}, with cluster density increasing down the diagram. Remember the grouping/reassignment idea and the three-group diagram; the slide does not supply a full clustering optimization procedure.
 
 **Particle filter framework — p.114.** Tracking maintains a description of an object's motion over time. Sir writes the state as
 
